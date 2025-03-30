@@ -32,15 +32,20 @@ This project was developed for the 2025 Rihal Codestacker Challenge – Machine 
 - PDF upload is limited to one file at a time for simplicity.
 
 ## File Mapping by Challenge Level
-| File/Folder | Purpose |
-|------------|---------|
-| `1_Data_Exploration-4.ipynb` | Jupyter notebook for Level 1 (EDA), Level 2A (classification), Level 2B (severity) |
-| `crime_dashboard.py` | Streamlit web app for Level 3, 4A, 4B, and 4C |
-| `predicted_data.csv` | Output predictions from classification model used in dashboard |
-| `Police Reports/` | Contains sample crime reports in PDF format for testing Level 4A–4C |
-| `requirements.txt` | List of Python dependencies |
-| `Dockerfile` | Docker container setup for Bonus Deployment |
-| `README.md` | Project documentation (this file) |
+
+| File/Folder                 | Purpose                                                                                                                                   |
+|-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| `1_Data_Exploration.ipynb`  | Jupyter notebook for Level 1 (EDA), Level 2A (classification), Level 2B (severity)                                                        |
+| `crime_dashboard.py`        | Streamlit web app for Level 3, 4A, 4B, and 4C                                                                                             |
+| `predicted_data.csv`        | Output predictions from classification model used in dashboard                                                                            |
+| `Competition_Dataset.csv`   | Original dataset provided for the competition                                                                                             |
+| `processed_data.csv`        | Preprocessed dataset used for model training and evaluation                                                                               |
+| `test_map.html`             | Sample output of the geo-spatial visualization (heatmap) generated during development                                                     |
+| `Police Reports/`           | Contains sample crime reports in PDF format for testing Level 4A–4C                                                                       |
+| `requirements.txt`          | List of Python dependencies                                                                                                               |
+| `Dockerfile`                | Docker container setup for Bonus Deployment                                                                                               |
+| `README.md`                 | Project documentation (this file)                                                                                                         |
+
 
 ## How to Run the Project
 
