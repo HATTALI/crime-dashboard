@@ -75,3 +75,6 @@ Key Libraries:
 ## Acknowledgements
 This project was submitted as part of the Machine Learning domain in the 2025 Rihal Codestacker Challenge to help support CityX law enforcement with predictive, data-driven insights.
 
+## Note on Model Accuracy:
+The classification model achieved unusually high accuracy (close to 100%) on the test set. This is likely due to the nature of the competition dataset, where crime descriptions (Descript) are highly structured and strongly correlated with their categories (Category). Many descriptions include specific phrases or keywords that make the classification task easier for the TF-IDF + Logistic Regression model to learn.
+While such performance is rare in real-world applications, it appears intentional in this context to help participants focus on building complete pipelines and interfaces rather than solving noisy NLP problems.
